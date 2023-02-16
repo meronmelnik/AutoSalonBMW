@@ -1,0 +1,239 @@
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=IBM+Plex+Sans+Condensed&display=swap');
+
+.text{
+    font-family:"IBM Plex Sans";
+    font-size: 25px;
+}
+/**
+*Базові стилі для цього сайту
+*/
+
+.container{
+    position: relative;
+    border-radius: 29px;
+    background-image: url('/img/logo/фон\ шапки.jfif');
+    box-shadow:0 10px 30px rgba(0, 0, 0, .9);
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+body{
+    position: relative;
+    font-size: 18px;
+    line-height: 1.4;
+    color: #000000;
+    min-width: 320px;
+    overflow-x: hidden;
+    height: auto;
+}
+
+body{
+    background-color: rgba(215, 215, 215, 0.288)
+}
+
+/**
+*Інші стилі
+*/
+.navbar{
+    top: 100%;
+    height: auto;
+    position: relative;
+   
+    }
+    
+.navbar .container {
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+    
+.navbar-menu {
+    list-style: none;
+    padding: 10px 30px 30px;
+    margin-bottom: 0; 
+    font-family:"Cormorant Garamond";
+    color: #000000;  
+}
+    
+.navbar-menu li {
+    display: inline-block;
+}
+    
+.navbar-menu li a {
+    display: inline-block;
+    color: #797979;      
+    opacity: 0.6;
+    text-decoration: none;
+    padding-left: 30px;
+    padding-top: 0px;
+    transition: all .4s ease-in-out;
+}
+    
+.navbar-menu li a:hover {
+    opacity: 1;
+    color: #ffffff;
+    transition: all .1s ease-in-out;
+}
+    
+.navbar-wrap {
+    display: flex;
+    flex-flow: row nowrap;
+}
+   
+.navbar-brand{
+    font-size: 2rem;
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    align-items: center;
+    font-family:"IBM Plex Sans";
+}
+
+.callback {
+    width: 15%;
+    padding: 10px 30px;
+    background-color: #136ACA;
+    color: #ffffff;
+    text-decoration: none;
+    transition: all .1s ease-in-out;
+}
+    
+.callback-dekoration{
+    width: 19%;
+    padding: 10px 30px;
+    background-color: #136ACA;
+    color: #ffffff;
+    text-decoration: none;
+    transition: all .1s ease-in-out;
+}
+
+.callback-dekoration:hover{
+    transform: scale(1.05);
+}
+
+.callback:hover {
+    transform: scale(1.05);
+}
+
+/**
+Table
+*/
+.navbar-table{
+    width: 100%;    
+    height: auto;
+    position: relative;
+}
+
+.table-container{
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #c5c5c5;
+    padding-left: 4.2cm;
+    padding-right: 4.2cm;
+    padding-top: 29px;
+    padding-bottom: 29px;
+}
+
+.table-brand{
+    text-decoration: none;
+    font-size: 18px;
+    font-family:"IBM Plex Sans";
+    padding-left: 30px;
+    color: #000000;
+    background-color: #c5c5c5;
+
+    transition: all .0,3s ease-out;
+    border-color: #000000;
+}
+
+.table-wrap {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.table-menu{
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 0;
+    font-family:"Cormorant Garamond";
+    color: #000000;
+}
+
+.table-menu li {
+    display: inline-block;
+}
+
+.table-menu li a {
+    display: inline-block;
+    color: #000000;
+    padding-left: 50px;
+    text-decoration: none;
+    transition: all .4s ease-in-out;
+    font-family:"Cormorant Garamond";
+}
+
+.table-callback{
+    margin-left: 30px;
+    padding: 1px 50px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+
+    background-color: #136ACA;
+    transition: all .0,3s ease-out;
+
+    border-radius: 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #000000;
+}
+
+.table-callback:hover {
+    background-color: #1347ca; /* Green */
+    color: white;
+    box-shadow: 0 4px 6px #136ACA;
+    border-width: 2px;
+}
+
+.example{
+    margin-left: 30px;
+    padding: 1px 50px;
+    background-color: #c5c5c5;
+    transition: all .0,3s ease-out;
+    border-radius: 10px;
+
+    border-width: 1px;
+    border-style: solid;
+    border-color: #000000;
+}
+
+.example:hover{
+    transition: all .1s ease-out;
+    border-width: 2px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.9);
+    background-color: #ffffff;
+}
+
+.shadow{
+    margin-left: 30px;
+    padding: 1px 50px;
+    background-color: #c5c5c5;
+    transition: all .0,3s ease-out;
+    border-radius: 10px;
+
+    border-width: 1px;
+    border-style: solid;
+    border-color: #000000;
+}
+
+.shadow:hover{
+    transition: all 0,3s ease-out;
+    border-width: 2px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.9);
+    background-color: #ffffff;
+}
